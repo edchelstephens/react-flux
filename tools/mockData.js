@@ -13,11 +13,19 @@ const courses = [
     authorId: 2,
     category: "Coding",
   },
+  {
+    id: 3,
+    title: "Pragmatic Programmer",
+    slug: "pragmatic-programmer",
+    authorId: 3,
+    category: "Coding",
+  },
 ];
 
 const authors = [
   { id: 1, name: "Edchel Stephen Nini" },
   { id: 2, name: "Robert Martin" },
+  { id: 3, name: "Andy Hunt" },
 ];
 
 const newCourse = {
