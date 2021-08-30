@@ -21,3 +21,7 @@
 ## if you want to use js in jsx, use `{}`
 
 # Render occurs when props change or state change
+
+# Class based components requires a render() function
+
+# While function based components does not, whatever is in the return statement, is what gets rendered.
