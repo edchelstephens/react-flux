@@ -18,6 +18,6 @@
 
 ## jsx transpiles to js
 
-## jsx != js
-
 ## if you want to use js in jsx, use `{}`
+
+# Render occurs when props change or state change
