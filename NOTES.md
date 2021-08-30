@@ -27,3 +27,7 @@
 # While function based components does not, whatever is in the return statement, is what gets rendered.
 
 # render function should be pure. It should not modify state or directly interact with the browser.
+
+### `|{" "}` - non breaking space in jsx
+
+### e.g. `<a href="/">Home</a> |<a href="/about">About</a> |{" "} <a href="courses/">Courses</a>`
