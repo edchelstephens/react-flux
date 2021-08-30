@@ -25,3 +25,5 @@
 # Class based components requires a render() function
 
 # While function based components does not, whatever is in the return statement, is what gets rendered.
+
+# render function should be pure. It should not modify state or directly interact with the browser.
