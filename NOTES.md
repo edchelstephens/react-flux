@@ -11,3 +11,13 @@
 ## what you can do is wrap the two elements under a div, for the top level function
 
 ## or use a react fragment.
+
+## If you want to use javascript inside of jsx use curly braces `{}` as in `{getPage()}`
+
+## Remember jsx is not javascript, it's an xml-like syntax for abstracting createReactElement calls to somewhat of an html friendly form
+
+## jsx transpiles to js
+
+## jsx != js
+
+## if you want to use js in jsx, use `{}`
