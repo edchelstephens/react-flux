@@ -17,16 +17,18 @@ class CoursesPage extends React.Component {
   renderTableHead() {
     return (
       <thead>
-        <th>Title</th>
-        <th>Author ID</th>
-        <th>Category</th>
+        <tr>
+          <th>Title</th>
+          <th>Author ID</th>
+          <th>Category</th>
+        </tr>
       </thead>
     );
   }
 
   renderRow(course) {
     return (
-      <tr>
+      <tr key={course.id}>
         <td>{course.title}</td>
         <td>{course.authorId}</td>
         <td>{course.category}</td>
