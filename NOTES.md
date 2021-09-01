@@ -54,3 +54,13 @@
 > allows us to handle side effects that need to occur eact time React renders
 
 # useEffect ~= componentDidMount + componentDidUpdate + componentWillUnmount
+
+# Rules of Hooks
+
+    1. Only call in React Function components
+        - You cannot call hooks on class components nor on plain javascript
+        - Must be called inside a React function component or our own custom Hook
+
+    2. Hooks must be declared at the top level
+        - Don't wrap in if statements, loops or functions
+        - If you want the hook to run conditionally, put the condition inside the hook instead.
