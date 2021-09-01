@@ -31,3 +31,13 @@
 ### `|{" "}` - non breaking space in jsx
 
 ### e.g. `<a href="/">Home</a> |<a href="/about">About</a> |{" "} <a href="courses/">Courses</a>`
+
+# React Hooks
+
+## useState -> use to set state of function component with a returned state setter
+
+> eg. const [email, setEmail] = useState("")
+
+## useEffect -> runs immediately after each render
+
+> allows us to handle side effects that need to occur eact time React renders
