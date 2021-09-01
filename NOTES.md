@@ -38,6 +38,6 @@
 
 > eg. const [email, setEmail] = useState("")
 
-## useEffect -> runs immediately after each render
+## useEffect -> runs immediately after each render, accepts two arguments, the function to call for the side effect and then the second argument which is the dependency array. Dependency array is important because the effect re-runs only when any values listed in the dependency array change.
 
 > allows us to handle side effects that need to occur eact time React renders
