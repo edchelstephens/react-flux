@@ -38,7 +38,13 @@
 
 > eg. const [email, setEmail] = useState("")
 
-## useEffect -> runs immediately after each render, accepts two arguments, the function to call for the side effect and then the second argument which is the dependency array.
+## useEffect -> runs immediately after each render, accepts the following arguments:,
+
+## 1st, the function to call for the side effect,
+
+## 2nd, the dependency array.
+
+## You can also run code on unmounting by returning a function from useEffect.
 
 ### Dependency array is important because the effect re-runs only when any values listed in the dependency array change.
 
@@ -46,3 +52,5 @@
 
 > Think of the dependency array as the reasons why the effect should re-run later
 > allows us to handle side effects that need to occur eact time React renders
+
+# useEffect ~= componentDidMount + componentDidUpdate + componentWillUnmount
