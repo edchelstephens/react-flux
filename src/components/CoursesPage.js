@@ -6,7 +6,14 @@ const CoursesPage = () => {
 
   useEffect(() => {
     getCourses().then((data) => setCourses(data));
-  }, [courses]);
+  }, []);
+
+  return (
+    <>
+      {renderHeader()}
+      {renderTable()}
+    </>
+  );
 
   function renderHeader() {
     return <h2>Header</h2>;
@@ -48,12 +55,6 @@ const CoursesPage = () => {
       </table>
     );
   }
-  return (
-    <>
-      {renderHeader()}
-      {renderTable()}
-    </>
-  );
 };
 
 export default CoursesPage;
