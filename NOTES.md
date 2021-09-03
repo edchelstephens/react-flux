@@ -72,3 +72,10 @@
 # use effect will call the api which will then set the state, which will then cause a re-render
 
 # then cause a new useEffect call on the new re-render, which will then trigger the setState command and again cause the useEffect to run and calling again the setState which calls again useEffect - so it goes into an infinite loop because setState gets called on every render, since there was no specified dependency array.
+
+# Controller View Component
+
+    - A React component that has child components.
+    - A top level react component
+    - Controls the data flows for it's child components by setting props on it's child components
+    - Controller views interact with Flux stores
