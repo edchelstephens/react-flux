@@ -96,3 +96,7 @@
         function CourseList(props)
 
         both receive props emplicitly or explicitly
+
+# Use `{}` to tell JSX that you're gonna use javascript in it
+
+# on props, if you just want to pass strings to children, just use `""` same as html markup
