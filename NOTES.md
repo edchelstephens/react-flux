@@ -79,3 +79,10 @@
     - A top level react component
     - Controls the data flows for it's child components by setting props on it's child components
     - Controller views interact with Flux stores
+
+# Two types of React components:
+
+    Smart or Container Components
+        - for components with logics that pass on props and controls to children components
+    Dumb or Presentation Components
+        - for pure markup
