@@ -6,7 +6,7 @@ const CoursesPage = () => {
 
   useEffect(() => {
     getCourses().then((data) => setCourses(data));
-  });
+  }, [courses]);
 
   function renderHeader() {
     return <h2>Header</h2>;
