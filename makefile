@@ -1,4 +1,3 @@
-# Git add commit push to main
 git_add_commit_push_main:
 	@git add .
 	@git commit -m "$m"
