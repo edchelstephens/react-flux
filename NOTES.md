@@ -64,3 +64,11 @@
     2. Hooks must be declared at the top level
         - Don't wrap in if statements, loops or functions
         - If you want the hook to run conditionally, put the condition inside the hook instead.
+
+# In react, any time a state changes, the component re-renders.
+
+# So when you use useEffect without the dependency array and when calling on api,
+
+# use effect will call the api which will then set the state, which will then cause a re-render
+
+# then cause a new useEffect call on the new re-render, which will then trigger the setState command and again cause the useEffect to run and calling again the setState which calls again useEffect - so it goes into an infinite loop because setState gets called on every render, since there was no specified dependency array.
