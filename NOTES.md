@@ -89,7 +89,7 @@
 
 # Props on function components
 
-    - all function components by default receive a props components
+    - all function components by default receive a props as their sole component
     - either declared or not:
         function CourseList()
         or
