@@ -86,3 +86,13 @@
         - for components with logics that pass on props and controls to children components
     Dumb or Presentation Components
         - for pure markup
+
+# Props on function components
+
+    - all function components by default receive a props components
+    - either declared or not:
+        function CourseList()
+        or
+        function CourseList(props)
+
+        both receive props emplicitly or explicitly
