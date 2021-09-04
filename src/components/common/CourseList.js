@@ -3,14 +3,10 @@ import React from "react";
 const CourseList = (props) => {
   return (
     <>
-      {renderHeader()}
+      <h2>Header</h2>
       {renderTable()}
     </>
   );
-
-  function renderHeader() {
-    return <h2>Header</h2>;
-  }
 
   function renderTableHead() {
     return (
