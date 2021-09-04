@@ -100,3 +100,7 @@
 # Use `{}` to tell JSX that you're gonna use javascript in it
 
 # on props, if you just want to pass strings to children, just use `""` same as html markup
+
+# React Router Dom Route takes two arguments, the path and then the component to render if the path matches.
+
+# Use exact on route for exact match. `<Route path="/" exact component={HomePage} />`
