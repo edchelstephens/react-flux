@@ -103,4 +103,8 @@
 
 # React Router Dom Route takes two arguments, the path and then the component to render if the path matches.
 
+# When a path matches, the Route will always render the component along with the others,
+
+# Route allows multi matching, so make use of exact for accuracy.
+
 # Use exact on route for exact match. `<Route path="/" exact component={HomePage} />`
