@@ -7,7 +7,7 @@ import CoursesPage from "./CoursesPage";
 function App() {
   function getPage() {
     const route = window.location.pathname;
-    console.log(route);
+
     let component = <HomePage />;
     if (route === "/courses") component = <CoursesPage />;
     if (route === "/about") component = <AboutPage />;
