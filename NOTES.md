@@ -108,3 +108,9 @@
 # Route allows multi matching, so make use of exact for accuracy.
 
 # Use exact on route for exact match. `<Route path="/" exact component={HomePage} />`
+
+# Router in react is to UrlConf in python
+
+# Route in react is to urlpatter in python, where for a certain url, there's a view,
+
+# Likewise in React, for a certain url, you load a component
