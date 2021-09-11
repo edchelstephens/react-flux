@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { getCourses } from "../api/courseApi";
 
-import CourseList from "./common/CourseList";
+import CourseList from "./CourseList";
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([]);
