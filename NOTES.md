@@ -118,3 +118,5 @@
 # Link offers an abstraction for anchor elements, for us to navigate our app with posting back to the server, reloading the browser to navigate the url
 
 # React-router-dom's Switch component is similar to javascript, one case, or route should only match, so the order matters, must make the default the last Route component.
+
+# Any component load by Ract Router's Route component receive a history object on it's props -> props.history
