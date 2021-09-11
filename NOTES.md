@@ -114,3 +114,5 @@
 # Route in react is to urlpatter in python, where for a certain url, there's a view,
 
 # Likewise in React, for a certain url, you load a component
+
+# Link offers an abstraction for anchor elements, for us to navigate our app with posting back to the server, reloading the browser to navigate the url
