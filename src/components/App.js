@@ -5,6 +5,7 @@ import Header from "./common/Header";
 import CoursesPage from "./CoursesPage";
 import { Route, Redirect, Switch } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
+import ManageCoursePage from "./ManageCoursePage";
 
 const App = () => (
   <div className="container-fluid">
@@ -13,6 +14,7 @@ const App = () => (
       <Route path="/" exact component={HomePage} />
       <Route path="/courses" exact component={CoursesPage} />
       <Route path="/about" exact component={AboutPage} />
+      <Route path="/course" component={ManageCoursePage} />
       <Redirect from="/about-page" to="about" />
       <Route component={NotFoundPage} />
     </Switch>
