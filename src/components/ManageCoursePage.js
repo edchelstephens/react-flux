@@ -1,10 +1,10 @@
 import React from "react";
 
 const ManageCoursePage = (props) => {
+  debugger;
   return (
     <>
       <h2> Manage Course</h2>
-      <b className="text-danger">{props.match.params.slug}</b>
     </>
   );
 };
