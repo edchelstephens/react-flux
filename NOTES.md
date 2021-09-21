@@ -131,3 +131,9 @@
 So that the specific `course/<slug>` can be matched and routed first, or else
 if you don't put this order, every course/ pattern in the url will route to ManageCoursePage
 This is a general note. One solution to this would be to use exact
+
+# React Forms
+
+# any `<input>` with a value set is a controlled component by React. It's value is set by react
+
+# Elements value _always_ matches the value of the assigned prop
