@@ -141,3 +141,5 @@ This is a general note. One solution to this would be to use exact
 # You must declare a change handler to register the keystrokes
 
 # if input doesn't have value or sets it to null, then it's uncontrolled
+
+# The target property of the event object is always a reference to the element the event occurred upon.
