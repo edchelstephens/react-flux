@@ -11,10 +11,10 @@ const ManageCoursePage = (props) => {
     category: "",
   });
 
-  function handleChage(event) {
+  function handleChage({ target }) {
     const updatedCourse = {
       ...course,
-      [event.target.name]: event.target.value,
+      [target.name]: target.value,
     };
     setCourse(updatedCourse);
   }
