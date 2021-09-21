@@ -143,3 +143,5 @@ This is a general note. One solution to this would be to use exact
 # if input doesn't have value or sets it to null, then it's uncontrolled
 
 # The target property of the event object is always a reference to the element the event occurred upon.
+
+# `[event.target.name]: event.target.value,` - [] here means computed property
