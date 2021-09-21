@@ -120,3 +120,14 @@
 # React-router-dom's Switch component is similar to javascript, one case, or route should only match, so the order matters, must make the default the last Route component.
 
 # Any component load by Ract Router's Route component receive a history object on it's props -> props.history
+
+# Put specific routes above less specific routes
+
+# Example:
+
+      <Route path="/course/:slug" component={CoursePage} />
+      <Route path="/course/"  component={ManageCoursePage} />
+
+So that the specific `course/<slug>` can be matched and routed first, or else
+if you don't put this order, every course/ pattern in the url will route to ManageCoursePage
+This is a general note. One solution to this would be to use exact
