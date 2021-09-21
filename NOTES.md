@@ -137,3 +137,7 @@ This is a general note. One solution to this would be to use exact
 # any `<input>` with a value set is a controlled component by React. It's value is set by react
 
 # Elements value _always_ matches the value of the assigned prop
+
+# You must declare a change handler to register the keystrokes
+
+# if input doesn't have value or sets it to null, then it's uncontrolled
