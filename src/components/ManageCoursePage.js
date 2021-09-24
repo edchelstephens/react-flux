@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import CourseForm from "./CourseForm";
 import * as courseApi from "../api/courseApi";
 import { toast } from "react-toastify";
 
 const ManageCoursePage = (props) => {
+  const slug = props.match.params.slug;
   const [errors, setErrors] = useState({});
   const [course, setCourse] = useState({
     id: null,
@@ -13,6 +14,12 @@ const ManageCoursePage = (props) => {
     authorId: null,
     category: "",
   });
+
+  useEffect(() => {
+    if (slug) {
+      courseApi.getCoursesBySlug(slug).then((data) => setCourse(data));
+    }
+  }, [slug]);
 
   function handleChage({ target }) {
     setCourse({

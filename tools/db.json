@@ -26,8 +26,16 @@
       "slug": "materials-science-physics",
       "title": "Materials Science Physics",
       "authorId": 1,
-      "category": "test",
+      "category": "Physics",
       "createdAt": 1632490618404
+    },
+    {
+      "id": 5,
+      "slug": "commands",
+      "title": "Django Commands",
+      "authorId": 1,
+      "category": "Django",
+      "createdAt": 1632494317935
     }
   ],
   "authors": [
