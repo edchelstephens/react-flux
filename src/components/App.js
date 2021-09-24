@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => (
-  <div className="container-fluid no-side-padding">
+  <div className="container-fluid px-0">
     <ToastContainer autoClose={3000} hideProgressBar />
     <Header />
     <Switch>
