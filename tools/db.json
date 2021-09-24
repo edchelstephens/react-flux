@@ -23,11 +23,11 @@
     },
     {
       "id": 4,
-      "slug": "test",
-      "title": "test",
+      "slug": "django-react-fundamentals",
+      "title": "Django React Fundamentals",
       "authorId": 1,
-      "category": "test",
-      "createdAt": 1632442888007
+      "category": "Web Development",
+      "createdAt": 1632488574022
     }
   ],
   "authors": [
