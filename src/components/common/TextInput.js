@@ -6,6 +6,7 @@ const TextInput = (props) => {
   if (props.error.length > 0) {
     wrapperClass += " has-error";
   }
+
   return (
     <div className={wrapperClass}>
       <label htmlFor={props.id}>{props.label}</label>
