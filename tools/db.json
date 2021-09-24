@@ -1,1 +1,47 @@
-{"courses":[{"id":1,"title":"Unit Testing with Django","slug":"unit-testing","authorId":1,"category":"Testing"},{"id":2,"title":"Clean Code","slug":"clean-code","authorId":2,"category":"Coding"},{"id":3,"title":"Pragmatic Programmer","slug":"pragmatic-programmer","authorId":3,"category":"Coding"}],"authors":[{"id":1,"name":"Edchel Stephen Nini"},{"id":2,"name":"Robert Martin"},{"id":3,"name":"Andy Hunt"}]}
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Unit Testing with Django",
+      "slug": "unit-testing",
+      "authorId": 1,
+      "category": "Testing"
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "slug": "clean-code",
+      "authorId": 2,
+      "category": "Coding"
+    },
+    {
+      "id": 3,
+      "title": "Pragmatic Programmer",
+      "slug": "pragmatic-programmer",
+      "authorId": 3,
+      "category": "Coding"
+    },
+    {
+      "id": 4,
+      "slug": "test",
+      "title": "test",
+      "authorId": 1,
+      "category": "test",
+      "createdAt": 1632442888007
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Edchel Stephen Nini"
+    },
+    {
+      "id": 2,
+      "name": "Robert Martin"
+    },
+    {
+      "id": 3,
+      "name": "Andy Hunt"
+    }
+  ]
+}
