@@ -53,7 +53,7 @@ const ManageCoursePage = (props) => {
   }
 
   return (
-    <>
+    <div className="jumbotron">
       <h2> Manage Course</h2>
       <CourseForm
         course={course}
@@ -61,7 +61,7 @@ const ManageCoursePage = (props) => {
         onSubmit={handleSubmit}
         errors={errors}
       />
-    </>
+    </div>
   );
 };
 
