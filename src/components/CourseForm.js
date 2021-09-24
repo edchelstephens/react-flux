@@ -1,6 +1,8 @@
 import React from "react";
 import TextInput from "./common/TextInput";
 
+import PropTypes from "prop-types";
+
 const CourseForm = (props) => {
   return (
     <form onSubmit={props.onSubmit}>
@@ -46,6 +48,13 @@ const CourseForm = (props) => {
       <input type="submit" value="Save" className="btn btn-primary"></input>
     </form>
   );
+};
+
+CourseForm.propTypes = {
+  course: PropTypes.object.isRequired,
+  onChange: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired,
+  errors: PropTypes.object.isRequired,
 };
 
 export default CourseForm;
